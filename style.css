@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+#navbar {
+    height: 48px;
+    display: flex;
+    justify-content: end;
+}
+
+#logo {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#search {
+    margin-top: 30px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_menu {
+    margin: 10px 10px 0 0;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_menu > a {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav_menu > a:hover {
+    text-decoration: underline;
+}
+
+.dots_icon {
+    height: 25px;
+    width: 32px;
+}
+
+.profile_icon {
+    height: 35px;
+    width: 35px;
+}
+
+.nav_menu > img:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    box-shadow: 2px 2px 2px #f1f1f1;
+}
+
+.logo_img {
+    width: 250px;
+    height:100px;
+}
+
+.search_bar {
+    border: 1px solid #BFC5C9;
+    border-radius: 30px;
+    width: 528px;
+    height: 46px;
+    padding-left: 20px;
+    font-size: large;
+}
+
+.search_bar:hover {
+    box-shadow: 2px 2px 2px 2px #f1f1f1;
+}
+
+.btn {
+    border: none;
+    height: 36px;
+    width: 120px;
+    border-radius: 2px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 30px 4px;
+}
+
+.btn:hover {
+    box-shadow: 1px 1px 1px 1px #BFC5C9;
+    cursor: pointer;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 210px;
+    font-size: 13px;
+    color: #4d5156;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.bottom_links {
+    font-size: 14px;
+    color: #4d5156;
+    text-decoration: none;
+}
+
+.bottom_links:hover {
+    text-decoration: underline;
+}
+
+.top {
+    padding: 15px 30px;
+    background-color: #F3F3F3;
+    border-bottom: 1px solid #BFC5C9;
+}
+
+.bottom {
+    padding: 15px 30px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
